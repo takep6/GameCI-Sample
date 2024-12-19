@@ -50,7 +50,6 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
-          buildMethod: webgl-gzip
           targetPlatform: WebGL
           unityVersion: 6000.0.23f1  #ここに使うUnityのバージョンを入れる
 
